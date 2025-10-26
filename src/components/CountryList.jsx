@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom'
 export default function CountryList(props) {
   return (
     <>
-      <Link to={`/country-detail?name=${props.name}`} className='country-card'>
+      <Link to={`/${props.name}`} className='country-card' state={props.data}>
+      <div className="flag-container">
         <img src={props.image} alt={props.name + " Flag"} />
+      </div>
         <div className="card-text">
           <h3 className='card-title'>{props.name}</h3>
           <p>

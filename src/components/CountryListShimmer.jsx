@@ -1,5 +1,5 @@
 import React from 'react'
-import './countryListShimmer.css'
+import './CountryListShimmer.css'
 
 const CountryListShimmer = () => {
 

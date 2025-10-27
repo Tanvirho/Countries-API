@@ -3,6 +3,7 @@ import react, { useEffect, useState } from 'react'
 import CountryList from './CountryList';
 import CountryListShimmer from './CountryListShimmer';
 
+
 const Country = ({ query }) => {
 
   const [CountryData, setCountryData] = useState([])

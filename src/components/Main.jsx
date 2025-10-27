@@ -15,7 +15,7 @@ export const Main = () => {
   return (
     <main className={`${isDark? 'dark' : ' '}`}>
       <div className="search-filter-container">
-        <Searchbar  />
+        <Searchbar  setQuery={setQuery}  />
         <FilterRegion setQuery={setQuery} />
       </div>
       {/* <h1 style={{textAlign: 'center'}}>{windowSize} x {windowHeight}</h1> */}
